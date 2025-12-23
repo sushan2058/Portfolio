@@ -716,12 +716,16 @@ footer {
 
 .gallery-item {
   cursor: pointer;
-  padding: 20px;
+  width: 200px;           /* adjust as needed */
+  height: 150px;          /* adjust as needed */
   margin: 10px;
-  background: #f8f8f8;
+  background: #00e8f8;
   border-radius: 10px;
-  text-align: center;
+  display: flex;          /* flexbox centering */
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
   transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
 }
 
 .gallery-item:hover {
