@@ -713,27 +713,3 @@ footer {
     width: 100%;
   }
 }
-
-.gallery-item {
-  cursor: pointer;
-  width: 200px;           /* adjust as needed */
-  height: 150px;          /* adjust as needed */
-  margin: 10px;
-  background: #00e8f8;
-  border-radius: 10px;
-  display: flex;          /* flexbox centering */
-  justify-content: center; /* horizontal center */
-  align-items: center;     /* vertical center */
-  transition: transform 0.3s, box-shadow 0.3s;
-  text-align: center;
-}
-
-.gallery-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.gallery-item h3 {
-  font-size: 1.1rem;
-  color: #333;
-}
