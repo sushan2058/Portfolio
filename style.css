@@ -713,3 +713,23 @@ footer {
     width: 100%;
   }
 }
+
+.gallery-item {
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.gallery-item h3 {
+  font-size: 1.1rem;
+  color: #333;
+}
